@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: bahnschrift;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url(foto/leaf.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.logo{
+    width: 60px;
+    height: 60px; 
+    background-image: radial-gradient(yellow, #00FF7F, green, lime, teal, yellow);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h5{
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(255, 215, 0)
+}
+
+nav{
+    width: 80%;
+    height: 60px;
+    margin: 0 auto;
+    background-image: linear-gradient(#fefefe, #e2e4e0);
+    border-radius: 7px;
+    border-top: 5px solid #32CD32;
+}
+
+ul{
+    width: 100%;
+    height: auto;
+    text-align: right;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    position: relative;
+    top: -5px;
+}
+
+li:hover{
+   background-image: linear-gradient(#32CD32, #98FB98) 
+}
+
+.antras{
+    background-image: linear-gradient(#32CD32, #98FB98);
+    color: yellow;
+    
+}
+
+a{
+    display: block;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    padding-top: 10px;
+    color: green;
+}
+
+a:hover{
+    color: white;
+}
+
+h1{outline: 2px solid blue;
+    width: 500px;
+    height: 130px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    background-image: linear-gradient(#fefefe, #72e5e0);
+    mix-blend-mode: screen;
+    text-shadow: 2px 2px white;
+    border-radius: 7px;
+    font-size: 50px;
+}
+
+section{
+    width: 100%;
+    height: 500px;
+    background-image: radial-gradient(#32CD32, #98FB98);
+    padding: 10px;
+    position: relative;
+}
+
+section div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 100%;
+    text-align: center;
+    background-image: url(foto/blue.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px;
+    color: #fff
+}
+.foto1{
+    background-image: url(foto/blue.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.foto2{
+    background-image: url(foto/butterfly.jpg);
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+
+.foto3{
+    background-image: url(foto/cherry.jpg);
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+
+
+.foto4{
+    background-image: url(foto/crocus.jpg);
+    position: absolute;
+    top: 0;
+    left: 60%;
+}
+
+.foto5{
+    background-image: url(foto/crocus2.jpg);
+    position: absolute;
+    top: 0;
+    left: 80%;
+}
+
+.foto6{
+    background-image: url(foto/lapai.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+
+.foto7{
+    background-image: url(foto/leaf.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+
+.foto8{
+    background-image: url(foto/liverwort.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+}
+
+.foto9{
+    background-image: url(foto/tulips.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 80%;
+}
+
+.foto10{
+    background-image: url(foto/tulips2.jpg);
+    
+    position: absolute;
+    bottom: 0;
+    left: 00;
+}
+
+section div:hover{
+    mix-blend-mode: screen;
+}

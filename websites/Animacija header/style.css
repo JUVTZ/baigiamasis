@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 200vh;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url(slider1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(25, 21, 38, 0.5);
+    text-align: center;
+    line-height: 1.4;
+    padding: 5px;
+}
+
+h1, p, a{
+    color: white;
+    animation-fill-mode: forwards;
+}
+
+h1{
+    font-family: 'Arvo', serif;
+    font-size: 50px;
+    margin-top: 85px;
+    position: relative;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-direction: reverse;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    margin: 40px;
+    position: relative;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+
+a{
+    display: inline-block;
+    width: 200px;
+    height: 55px;
+    text-decoration: none;
+    background-color: #ca970b;
+    font-size: 18px;
+    font-family: 'Arvo', serif;
+    padding-top: 15px;
+    position: relative;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0.1;
+    animation-direction: reverse;
+}
+
+@keyframes move{
+    0%{top: 0;}
+    100%{top: 200px; opacity: 0;}
+}

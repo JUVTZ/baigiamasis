@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Montserrat', sans-serif;
+    border: 20px solid grey;
+    line-height: 2em;
+    padding: 20px;
+}
+
+p{
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+}
+
+.foto1{
+    float: left;
+}
+
+.foto2{
+    float: right;
+}
+
+.foto3{
+    float: left;
+}
+
+img{
+    width: 150px;
+    margin: 20px;
+}
+
+.antras p{
+    display: inline-block;
+    width: 40%;
+}

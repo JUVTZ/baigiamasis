@@ -1,0 +1,31 @@
+object-fit: cover;  (video uždengia visą headį)
+mix-blend-mode: screen; (iškerpa raides)
+mix-blend-mode: nurodo, kaip elemento turinys turėtų susilieti su tiesioginiu tėvo fonu.
+font-size:12vw; (nuo lango pločio,)
+line-height: 36vh; (nuo lango aukščio).
+&copy;
+__________________
+position: sticky;
+top: 0;
+_________________
+position: fixed;
+bottom: 0;
+right: 0;
+_________________
+
+position: absolute;
+position: relative;
+letter-spacing: 3px;
+background-attachment: fixed;
+
+____________________________
+@keyframes manoanimacijospavadinimas{
+0%{color:red;}
+100%{color:blue;}
+}
+_____________________________
+animation-name:manoanimacijospavadinimas;
+animation-duration: 10s;
+animation-iteration-count:infinite; animacija vyks visa laika.
+animation-iteration-count:3; animacija kartos tris kartus
+animation-delay: 3s; pradžios vėlavimas.
